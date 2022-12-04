@@ -1,6 +1,6 @@
-const jsonServer = require('json-server')
-const clone = require('clone')
-const data = require('../data.json')
+const jsonServer = require('json-server');
+const clone = require('clone');
+const data = require('../data.json');
 const url = require('url');
 
 const app = jsonServer.create()
