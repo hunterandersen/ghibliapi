@@ -9,7 +9,7 @@ test('GET /', (t) => {
 })
 
 test('POST /', (t) => {
-  const max = 10
+  const max = 5
   t.plan(max * 3)
 
   // Test concurrency

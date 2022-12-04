@@ -8,10 +8,14 @@ const router = jsonServer.router(clone(data))
 
 app.use((req, res, next) => {
   if (req.path === '/') return next()
+  //I believe this protects the ghibli data from actually getting changed.
+  //Since you only ever deal with a clone of it
   router.db.setState(clone(data))
   next()
 })
 
+//jsonServer.defaults builds up default server endpoints
+//based on the property names in your json data file
 app.use(jsonServer.defaults({
   logger: process.env.NODE_ENV !== 'production'
 }))
