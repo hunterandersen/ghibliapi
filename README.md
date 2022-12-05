@@ -2,7 +2,7 @@
  
 The [Studio Ghibli API](https://studioghibliapi-d6fc8.web.app) catalogs the people, places, and things found in the worlds of Ghibli. It was created to help users discover resources, consume them via HTTP requests, and interact with them in whatever way makes sense. Navigation can be found on the left sidebar, and the right sidebar shows examples of returned objects for successful calls.
 
-December 1 2022 - Heroku is charging for apps now, so janaipakos decided to archive this repo. But he offered for anyone else to fork and host it another version. This is that version.
+December 1 2022 - Heroku is charging for apps now, so janaipakos decided to archive this repo. But he offered for anyone else to fork and host another version. This is that version.
 
 ## Endpoints
 
