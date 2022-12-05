@@ -5,3 +5,5 @@ _site/
 *.log
 node_modules/
 .deploy*/
+/.firebase
+/.firebaserc
